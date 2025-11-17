@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritish | Personal Notes Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+    <h1 class="fade-in">Welcome, <span class="highlight">Ritish</span></h1>
+    <p class="tagline slide-up">Your personal space • Your thoughts • Your notes</p>
+    <a href="notes.html" class="btn glow-button">Go to Notes</a>
+</header>
+
+</body>
+</html>

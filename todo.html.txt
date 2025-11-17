@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>To‑Do | Ritish</title>
+<link rel="stylesheet" href="todo.css" />
+</head>
+<body>
+<main class="container">
+<header class="top">
+<h1>To‑Do</h1>
+<div class="controls">
+<input id="newTodoInput" placeholder="Add a task and press Enter" />
+<button id="addBtn" class="btn">Add</button>
+</div>
+</header>
+
+
+<section class="filters">
+<button data-filter="all" class="filter active">All</button>
+<button data-filter="active" class="filter">Active</button>
+<button data-filter="completed" class="filter">Completed</button>
+</section>
+
+
+<ul id="todoList" class="todo-list"></ul>
+
+
+<footer class="todo-footer">
+<span id="itemsLeft">0 items left</span>
+<div>
+<button id="clearCompleted" class="btn soft">Clear completed</button>
+<button id="exportBtn" class="btn soft">Export</button>
+</div>
+</footer>
+</main>
+
+
+<script src="todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+/* small animated assistant in the bottom-right */
+.assistant-wrap{position:fixed;right:18px;bottom:18px;z-index:999}
+.assistant{width:96px;height:96px;border-radius:50%;background:linear-gradient(180deg,#fff,#ffd6e0);box-shadow:0 8px 30px rgba(0,0,0,0.18);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:transform .18s}
+.assistant:hover{transform:scale(1.05)}
+.assistant .eye{width:10px;height:10px;border-radius:50%;background:#6a3a6a;margin:0 4px}
+.chat-bubble{position:fixed;right:128px;bottom

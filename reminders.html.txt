@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Reminders | Ritish</title>
+<link rel="stylesheet" href="todo.css" />
+</head>
+<body>
+<main class="container">
+<h1>Reminders</h1>
+<div class="reminder-controls">
+<input id="reminderText" placeholder="What do you want to be reminded about?" />
+<input id="reminderTime" type="datetime-local" />
+<button id="setReminder" class="btn">Set Reminder</button>
+</div>
+
+
+<ul id="reminderList" class="todo-list"></ul>
+</main>
+
+
+<script src="reminders.js"></script>
+</body>
+</html>
